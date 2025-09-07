@@ -43,7 +43,7 @@ SynergySphere is a full-stack web application with a rich, responsive user inter
 
 #### Team Collaboration & Communication
 * **Role-Based Users:** Users register with specific roles (e.g., Backend Developer, Designer), which informs the AI's analysis.
-* **Team Invites:** Seamlessly invite other registered users to projects.
+* **Team Invites:** Seamlessly invite other registered users to projects from the project board.
 * **Task Detail View:** Every task is clickable, opening a dedicated page.
 * **Threaded Discussions:** A complete commenting system on each task detail page allows for focused, project-specific conversations.
 * **User Profiles:** A simple page for users to see their own account information.
@@ -51,7 +51,7 @@ SynergySphere is a full-stack web application with a rich, responsive user inter
 #### ✨ Unique AI-Powered Intelligence
 * 🤖 **AI Synergy Analysis:** A feature on the main project board that provides an instant, AI-generated report on the project's health. It analyzes:
     * **Workload Balance:** Detects if team members are over or under-utilized.
-    * **Skill Mismatch:** Warns if a task is assigned to a user whose role is not appropriate (e.g., a "Design" task assigned to a "Backend Developer").
+    * **Skill Mismatch:** Warns if a task is assigned to a user whose role is not appropriate for it.
     * **Potential Bottlenecks:** Identifies tasks that may be blocking other parts of the project.
 * 🚀 **AI Priority View:** A unique project view that organizes tasks by team member. It features a "Calculate AI Priority" button that:
     * Asks the AI to analyze every task based on dependencies, descriptions, and user roles.
@@ -60,13 +60,13 @@ SynergySphere is a full-stack web application with a rich, responsive user inter
 
 ## 🛠️ Tech Stack
 
-| Category | Technology |
-| :--- | :--- |
+| Category         | Technology                                                 |
+| :--------------- | :--------------------------------------------------------- |
 | **Backend** | Python, Flask, Flask-SQLAlchemy, Flask-Login, Flask-Bcrypt |
-| **Database** | SQLite |
-| **AI Integration**| Google Gemini API |
-| **Frontend** | HTML, CSS, JavaScript, Bootstrap 5 |
-| **Styling** | Custom "Glassmorphism" Dark Theme |
+| **Database** | SQLite                                                     |
+| **AI Integration**| Google Gemini API                                          |
+| **Frontend** | HTML, CSS, JavaScript, Bootstrap 5                         |
+| **Styling** | Custom "Glassmorphism" Dark Theme                          |
 
 ## ⚙️ Local Installation & Setup Guide
 
@@ -75,35 +75,41 @@ To run this project on your local machine, please follow these steps:
 #### Prerequisites
 * Python 3.10 or higher
 * `pip` package manager
+* Git
 
 #### Step-by-Step Instructions
 
 1.  **Clone the Repository**
+    Open your command prompt or terminal and run the following command to download the project:
     ```bash
-   git clone https://github.com/Ompatil9021/SynergySphere---Advanced-AI-Powered-Team-Collaboration-Platform
-   cd SynergySphere---Advanced-AI-Powered-Team-Collaboration-Platform
-```
+    git clone [https://github.com/Ompatil9021/SynergySphere---Advanced-AI-Powered-Team-Collaboration-Platform](https://github.com/Ompatil9021/SynergySphere---Advanced-AI-Powered-Team-Collaboration-Platform)
+    ```
 
-2.  **Create a Virtual Environment**
+2.  **Navigate into the Directory**
+    ```bash
+    cd SynergySphere---Advanced-AI-Powered-Team-Collaboration-Platform
+    ```
+
+3.  **Create a Virtual Environment**
     It's highly recommended to use a virtual environment to manage project dependencies.
     ```bash
     # For Windows
     python -m venv venv
     ```
 
-3.  **Activate the Virtual Environment**
+4.  **Activate the Virtual Environment**
     ```bash
     # For Windows
     .\venv\Scripts\activate
     ```
 
-4.  **Install Dependencies**
+5.  **Install Dependencies**
     Install all the required Python packages from the `requirements.txt` file.
     ```bash
     pip install -r requirements.txt
     ```
 
-5.  **Set Up Environment Variables**
+6.  **Set Up Environment Variables**
     The application requires an API key for the Google Gemini API.
     * Create a file named `.env` in the root of the project directory.
     * Add your API key to this file as follows:
@@ -111,7 +117,7 @@ To run this project on your local machine, please follow these steps:
         GEMINI_API_KEY='Your_API_Key_Here'
         ```
 
-6.  **Run the Application**
+7.  **Run the Application**
     Once the setup is complete, you can run the Flask development server.
     ```bash
     python app.py
@@ -129,6 +135,3 @@ To experience the full power of SynergySphere:
 6.  Click the **"Get AI Synergy"** button to get a qualitative analysis of your project.
 7.  Navigate to the **"AI Priority View"** tab and click **"Calculate AI Priority"** to watch the tasks re-order themselves based on the AI's logic.
 8.  Click on any task title to visit its **detail page** and have a conversation using the **commenting system**.
-
-
----
