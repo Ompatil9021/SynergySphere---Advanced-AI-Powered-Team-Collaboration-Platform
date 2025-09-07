@@ -80,9 +80,9 @@ To run this project on your local machine, please follow these steps:
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/your-username/synergysphere.git](https://github.com/your-username/synergysphere.git)
-    cd synergysphere
-    ```
+   git clone https://github.com/Ompatil9021/SynergySphere---Advanced-AI-Powered-Team-Collaboration-Platform
+   cd SynergySphere---Advanced-AI-Powered-Team-Collaboration-Platform
+```
 
 2.  **Create a Virtual Environment**
     It's highly recommended to use a virtual environment to manage project dependencies.
@@ -129,5 +129,6 @@ To experience the full power of SynergySphere:
 6.  Click the **"Get AI Synergy"** button to get a qualitative analysis of your project.
 7.  Navigate to the **"AI Priority View"** tab and click **"Calculate AI Priority"** to watch the tasks re-order themselves based on the AI's logic.
 8.  Click on any task title to visit its **detail page** and have a conversation using the **commenting system**.
+
 
 ---
